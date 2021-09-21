@@ -1,0 +1,19 @@
+.card {
+	border-radius: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px;
+
+}
+
+.registrationCard {
+	composes: card;
+	background-color: #387f9b;
+}
+
+
+.authCard {
+	composes: card;
+	background-color: #38529b;
+}
